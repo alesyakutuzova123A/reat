@@ -166,9 +166,10 @@ header {
 }
 
 .fa-angle-down {
-    padding-left: 30px;
-    position: relative;
-    font-size: 2rem;
+font-size: 2rem;
+position: absolute;
+left: 47.4%;
+top: 82%;
 }
 
 .fa-angle-down:before {
@@ -1225,7 +1226,15 @@ padding-top: 40px;
     body.lock {
         overflow: hidden;
     }
-
+    .header__title {
+        font-size: 6.6rem;
+        }
+        .links {
+        margin-left: 35px;
+        }
+        .border {
+        left: 43%;
+        }
     .header_body {
         height: 30px;
     }
@@ -1240,6 +1249,7 @@ padding-top: 40px;
         height: 20px;
         z-index: 15;
     }
+    
 .container{
     width: 760px;
 }
