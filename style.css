@@ -232,7 +232,6 @@ header {
     padding-top: 50px;
     margin-bottom: 50px;
 }
-
 .about__wrapper {
     width: 50%;
     position: relative;
@@ -1713,7 +1712,16 @@ footer h4 {
     body.lock {
         overflow: hidden;
     }
-
+    .tab h2 {
+        margin-left: 10px;
+        }
+        .order .tabs {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        }
+        .order .tab-content {
+        margin-top: 100px;
+        }
     .container {
         width: 318px;
     }
@@ -2397,7 +2405,6 @@ footer h4 {
 
     .menu__list {
         display: block;
-        text-align: center;
     }
 
     .master {
@@ -2438,21 +2445,12 @@ footer h4 {
             .slider__square {
             top: 13%;
             }
-            .order .tabs {
-                margin-top: 10px;
-                display: block;
-                }
                 .order .tab, .order .tab-title {
                 display: block;
                 }
                 .tab h2 {
                 padding: 0px;
                 margin-bottom: 10px;
-                width: 20%;
-                margin-left: 30px;
-                }
-                .order .tab-content {
-                margin-top: 170px;
                 }
                 .menu {
                 margin: 30px 0;
